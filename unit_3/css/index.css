@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+  background: url("xxxxxxx");
+  color: #fff;
+  font-family: Roboto;
+  hr {
+  width: 200px;
+}
