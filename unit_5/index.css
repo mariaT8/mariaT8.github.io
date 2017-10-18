@@ -1,29 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 header {
-    background-color: [#FFED74];
-    border: 1px black solid;
-    padding: 20px;
-}
-nav {
-    background-color: [#FFED74];
+    background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+nav {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 h1 {
 	text-align:center;
     font-family:'Roboto';
 }
 
-
 body {
-  background: url("<!--WIll be a link to a video-->");
+  background-color:#222;
   color: #fff;
-  font-family: Roboto;
-  hr {
+  font-family: Roboto; 
+}
+
+#logo 
+{
   width: 200px;
 }
 
+.blog_images
+{width: 300px;
+}
 
 p {
 	font-family: roboto;
@@ -33,4 +40,11 @@ p {
 }
 strong {
 	font-variant: small-caps;
+}
+
+footer {
+    color:#222;
+    background-color: #FFF;
+    border: 1px black solid;
+    padding: 20px;
 }
