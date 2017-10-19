@@ -1,35 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 header {
-    background-color: #FFED74;
+    background-color: #222;
     border: 1px black solid;
     padding: 20px;
 }
 
 nav {
-    background-color: #FFED74;
+    background-color: #008B8B;
+    border: 1px with;
+    padding: 30px;
+}
+
+aside {
+  IMAGES PROBLEM;
+}
+
+
+article {
+    color:#222;
+    background-color: ##DCDCDC;
     border: 1px black solid;
     padding: 20px;
 }
 
-h1 {
-	text-align:center;
-    font-family:'Roboto';
+footer {
+    color:#222;
+    background-color: #A9A9A9;
+    border: 1px black solid;
+    padding: 20px;
 }
 
+
+h1 {
+  text-align:center;
+  font-family:'Roboto';
+  color:#FFF;
+}
+
+h2 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h3 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h4 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h5 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h6 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+
 body {
-  background-color:#222;
+  background-color:#FFF;
   color: #fff;
   font-family: Roboto; 
 }
 
 #logo 
 {
-  width: 200px;
+  width: 300px;
+  text-align: center;  NOT WORKING
 }
 
 .blog_images
-{width: 300px;
+{width: 500px;
+ text-align: right;
 }
 
 p {
@@ -37,14 +91,10 @@ p {
 	font-size: 18px;
 	line-height: 1.5em;
 	margin: 2em;
+  color: #222;
 }
 strong {
 	font-variant: small-caps;
 }
 
-footer {
-    color:#222;
-    background-color: #FFF;
-    border: 1px black solid;
-    padding: 20px;
-}
+
