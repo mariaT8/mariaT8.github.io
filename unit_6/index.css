@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header {
+    background-color: #222;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+ NOW IS A VIDEO
+
+nav {
+    background-color: #008B8B;
+    border: 1px with;
+    padding: 30px;
+    font-family:'Roboto';
+}
+
+a {
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+aside {
+  IMAGES PROBLEM;
+}
+
+
+article {
+    color:#222;
+    background-color: ##DCDCDC;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+li {
+  float: left;
+  width: 50%;
+  height: 6em;
+  outline: 3px solid #222;
+  text-align: center;
+  line-height: 6em; 
+  color: #000; 
+  background: #fff;
+}
+
+
+#about {
+  float: left;
+}
+
+#services {
+  float: right;
+}
+
+footer {
+    color:#222;
+    background-color: #A9A9A9;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+h1 {
+  text-align:center;
+  font-family:'Roboto';
+  color:#FFF;
+}
+
+h2 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h3 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h4 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h5 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+h6 {
+  text-align:left;
+  font-family:'Roboto';
+  color:#222;
+}
+
+
+body {
+  background-color:#FFF;
+  color: #fff;
+  font-family: Roboto; 
+}
+
+#logo 
+{
+  width: 300px;
+  text-align: center;  NOT WORKING
+}
+
+.blog_images
+{width: 500px;
+ text-align: right;
+}
+
+p {
+	font-family: roboto;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+  color: #222;
+}
+strong {
+	font-variant: small-caps;
+}
+
+
