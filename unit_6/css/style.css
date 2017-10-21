@@ -3,24 +3,24 @@
 header {
     background-color: #222;
     border: 1px black solid;
-    padding: 20px;
-}
+    padding: 70px;
+}  
 
- NOW IS A VIDEO
+/* WILL IS A VIDEO*/
 
 nav {
-    background-color: #008B8B;
-    border: 1px with;
+    background-color: #FFF;
+    border: 1px solid;
     padding: 30px;
     font-family:'Roboto';
 }
 
 a {
-  background-color: #ff7900;
+  background-color: #008B8B;
   color: white;
   text-decoration: none;
   display: block;
-  float: left;
+  float: right;
   padding: 20px;
 }
 
@@ -34,13 +34,13 @@ a {
 }
 
 aside {
-  IMAGES PROBLEM;
+ /* IMAGES PROBLEM;*/
 }
 
 
 article {
     color:#222;
-    background-color: ##DCDCDC;
+    background-color: #FFF;
     border: 1px black solid;
     padding: 20px;
 }
@@ -52,8 +52,8 @@ li {
   outline: 3px solid #222;
   text-align: center;
   line-height: 6em; 
-  color: #000; 
-  background: #fff;
+  color: #fff; 
+  background: #000;
 }
 
 
@@ -66,10 +66,12 @@ li {
 }
 
 footer {
-    color:#222;
-    background-color: #A9A9A9;
+    color:#fff;
+    background-color: #fff;
     border: 1px black solid;
-    padding: 20px;
+    padding: 40px;
+    text-align: center; 
+    clear: both;
 }
 
 
@@ -100,15 +102,17 @@ h4 {
 h5 {
   text-align:left;
   font-family:'Roboto';
-  color:#222;
+  font-size: 1.5em;
+  padding: .8em 0;
+  border-bottom-color: #fffebb;
+  color: #fffebb;
 }
-
+  
 h6 {
-  text-align:left;
+  text-align:center;
   font-family:'Roboto';
   color:#222;
 }
-
 
 body {
   background-color:#FFF;
@@ -116,14 +120,24 @@ body {
   font-family: Roboto; 
 }
 
+.row aside {
+  width: 30%;
+  float: right;
+}
+
+.row article {
+  width: 65%;
+  float:left;
+}
+
 #logo 
 {
-  width: 300px;
-  text-align: center;  NOT WORKING
+  width: 400px;
+  text-align: center;  
 }
 
 .blog_images
-{width: 500px;
+{width: 280px;
  text-align: right;
 }
 
