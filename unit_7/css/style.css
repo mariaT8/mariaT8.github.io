@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {
-  background-color:#FFF;
-  color: #fff;
-  font-family: Roboto; 
-}
-
 header {
     background-color: #222;
     border: 1px black solid;
@@ -110,8 +104,8 @@ h5 {
   font-family:'Roboto';
   font-size: 1.5em;
   padding: .8em 0;
-  border-bottom-color: #000;
-  color: #000;
+  border-bottom-color: #fffebb;
+  color: #fffebb;
 }
   
 h6 {
@@ -120,18 +114,11 @@ h6 {
   color:#222;
 }
 
-p {
-  font-family: roboto;
-  font-size: 18px;
-  line-height: 1.5em;
-  margin: 2em;
-  color: #222;
+body {
+  background-color:#FFF;
+  color: #fff;
+  font-family: Roboto; 
 }
-
-strong {
-  font-variant: small-caps;
-}
-
 
 .row aside {
   width: 30%;
@@ -154,17 +141,15 @@ strong {
  text-align: right;
 }
 
-
-.read {
-  background: white;
-  border: 1px solid red;
-  color: green;
+p {
+	font-family: roboto;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+  color: #222;
 }
-
-.row {
-  text-align: center;
-  margin: 8px 24px;
+strong {
+	font-variant: small-caps;
 }
-
 
 
