@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+*{margin:0
+  padding:0;
+  box-sizing:border-box;
+}
 body {
-  background-color:#FFF;
+  background-color:#F5F5F5;
   color: #fff;
   font-family: Roboto; 
+  padding: 30px;
 }
 
 header {
@@ -11,12 +15,18 @@ header {
     border: 1px black solid;
     padding: 70px;
 }  
+img{
+  display:block;
+  width:100%}
 
-/* WILL IS A VIDEO*/
+#logo 
+{
+  width: 300px;
+  text-align: center;  
+}
 
 nav {
     background-color: #FFF;
-    border: 1px solid;
     padding: 30px;
     font-family:'Roboto';
     width: 50%
@@ -33,6 +43,36 @@ a {
   padding: 20px;
 }
 
+
+.wrapper
+ {width: 1200px;
+ text-align: left;
+ padding-top: 10px
+}
+
+/*blog_images{
+ width: 250px;
+ text-align: left;
+ padding-top: 10px
+ padding:15px;
+}*/
+
+.read {
+  background: white;
+  border: 1px solid grey;
+  color: teal;
+  padding: 15px:;
+  position: absolute;
+  bottom: 20px;
+  right: 20px; 
+}
+
+.row {
+  text-align: center;
+  margin: 8px 24px;
+}
+
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -42,30 +82,55 @@ a {
   font-size: 0;
 }
 
-title {
-    color:#222;
-    background-color: #fff;
-    border: 1px black solid;
-    padding: 40px;
-    text-align: left; 
-    width: 50%
-    clear: both;
-
-}
-
-
-
-aside {
- /* IMAGES PROBLEM;*/
-}
-
 
 article {
+    position: relative;  
     color:#222;
     background-color: #FFF;
     border: 1px black solid;
     padding: 20px;
+    margin: 5%;
 }
+
+.articleimage{
+  float: left;
+  width: 25%;
+}
+.articletitle{
+  float:left;
+  width: 50%; 
+  padding-left: 20px;
+}
+.articledate{
+  float: left;
+  width: 25%;
+}
+.articletext{
+  margin: 5%;
+  padding: 5px;
+  
+}
+
+#about {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+#about p{
+  color: #fff; 
+  background: #000;
+  outline: 3px solid #222;
+  text-align: center;
+  height: 12em;
+}
+
+#services {
+  float: right;
+  padding: 10px;
+  width: 50%;
+
+}
+
 
 li {
   float: left;
@@ -78,14 +143,6 @@ li {
   background: #000;
 }
 
-
-#about {
-  float: left;
-}
-
-#services {
-  float: right;
-}
 
 footer {
     color:#fff;
@@ -109,6 +166,7 @@ h2 {
   color:#222;
   font-size: 30px;
   line-height: 1.5em;
+  margin: 3%;
 }
 
 
@@ -147,131 +205,20 @@ p {
   font-family: roboto;
   font-size: 18px;
   line-height: 1.5em;
-  margin: 2em;
   color: #222;
   text-align: left;
 }
 
-strong {
-  font-variant: small-caps;
-}
-
-
-.row aside {
-  width: 30%;
-  float: right;
-}
-
-.row article {
-  width: 65%;
-  float:left;
-}
-
-#logo 
-{
-  width: 400px;
-  text-align: center;  
-}
-
-.blog_images
-{width: 250px;
- text-align: right;
- padding-top: 10px
-}
-
-
-.read {
-  background: white;
-  border: 1px solid grey;
-  color: teal;
-}
-
-.row {
-  text-align: center;
-  margin: 8px 24px;
-}
 
 
 
-@media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  } 
-  nav {
-    float: none;
-  }
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
-  #img logo {
-    width: 320px;
-  
 
-   article {
-    width: 230px;
-  }
 
-  }
-  #img scr {
-    width: 320px;
-  }
 
-   #about {
-    font-size: 1.4em;
-    line-height: 1.8em;
-  }
-  
-   #services{
-    font-size: 1.4em;
-    line-height: 1.8em;
-  }
-  
-@media only screen and (max-width: 480px) {
-  h1, nav {
-    display: block;
-    text-align: center;
-  }
-  nav a {
-    margin: 0 1em 1em;
-  }
-  #img logo {
-    width: 230px;
-  }
 
-  article {
-    width: 230px;
-  }
 
- #img scr {
-    width: 320px;
-  }
 
-  section, div {
-    width: 100%;
-    padding: .6em;
-  }
-  #about {
-    float: none;
-    font-size: 1.4em;
-}
-  #services {
-    float: none;
-    font-size: 1.4em;
-  }
-  h2 {
-    font-size: 1em;
-    display: inline;
-  }
-  p, ul {
-    margin: 1.8em .6em 0;
-  }
-  li {
-    width: 80%;
-    outline-width: .5em;
-    padding: .5em;
-    height: 2em;
-    line-height: 2em;
-  }
-}
+
+
 
 
